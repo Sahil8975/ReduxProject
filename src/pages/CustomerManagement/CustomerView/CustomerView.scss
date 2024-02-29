@@ -1,0 +1,34 @@
+.css-mkqcuw-MuiAccordionSummary-expandIconWrapper.Mui-expanded {
+  transform: none;
+}
+
+// DarkMode Accordion Summary Background
+// .css-5ag2x1-MuiButtonBase-root-MuiAccordionSummary-root {
+//   background-color: #212b36;
+// }
+
+.accordionDetailsStyles {
+  padding: 0rem;
+  // background-color: '#1391b1';
+  // background: linear-gradient(360deg, rgba(6, 87, 105, 1) 0%, rgba(1, 136, 168, 255) 50%);
+  background: linear-gradient(360deg, rgba(20, 30, 70, 1) 0%, rgba(20, 30, 70, 1) 50%);
+  background-color: '#1391b1';
+  border-bottom-left-radius: '8px';
+  border-bottom-right-radius: '8px';
+}
+
+.customerLocationAccordionDetailsStyles {
+  // background-color: '#1391b1';
+  // background: linear-gradient(360deg, rgba(6, 87, 105, 1) 0%, rgba(1, 136, 168, 255) 50%);
+  background: linear-gradient(360deg, rgba(20, 30, 70, 1) 0%, rgba(20, 30, 70, 1) 50%);
+  background-color: '#1391b1';
+  border-bottom-left-radius: '8px';
+  border-bottom-right-radius: '8px';
+}
+
+.locationContactsAccordionDetailsStyles {
+  // background-color: '#1391b1';
+  background: #141e46;
+  border-bottom-left-radius: '8px';
+  border-bottom-right-radius: '8px';
+}

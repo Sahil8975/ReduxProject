@@ -1,0 +1,22 @@
+[
+  {
+    "id" : 1234,
+    "status" : "Active",
+    "projectNo": "HSDPJD_0172_002_003",
+    "signOn": "09-10-2012",
+    "startDate": "09-12-2021",
+    "endDate": "10-12-2022",
+    "business": "Refill",
+    "location": "Alireza tower 1st and 2nd floor jeddah"
+  },
+  {
+    "id" : 7331,
+    "status" : "Active",
+    "projectNo": "HSDPJD_0172_001_005",
+    "signOn": "09-12-2011",
+    "startDate": "09-12-2019",
+    "endDate": "10-12-2022",
+    "business": "Maintenance",
+    "location": "Industrial city Arrow Juice Factory.Ind. City 5981 Jeddah 21432 KSA, SAU,"
+  }
+]

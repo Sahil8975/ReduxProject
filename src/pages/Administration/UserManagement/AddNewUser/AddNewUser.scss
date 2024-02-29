@@ -1,0 +1,31 @@
+.add-user-main-cls {
+  padding: 30px 20px;
+  width: 100%;
+  margin: -35px auto;
+}
+
+.popover-cls {
+  position: absolute;
+  z-index: 2;
+}
+
+.cover-cls {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.chrome-picker {
+  width: 150px;
+  input {
+    background-color: #fff;
+    color: #000;
+  }
+}
+
+// For AddNewUser page dark theme background fix
+.css-a52s5f {
+  background-color: #161c24 !important;
+}

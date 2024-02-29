@@ -1,0 +1,33 @@
+.project_creation_main_grid{
+  padding: 30px 20px;
+  width: 100%;
+  margin: -35px auto;
+}
+.main_title_cls{
+  display: flex;
+  justify-content: center;
+}
+.form_sub_title_cls{
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.service_invoice_recurrence_light{
+  background-color: #E8E8E8;
+  border: 1px solid #BCB9B9;
+  height: 150px;
+  width: 75%;
+  overflow: auto;
+  margin-top: 0.7rem;
+}
+.service_invoice_recurrence_dark{
+  background-color: #5f5d5d;
+  border: 1px solid #BCB9B9;
+  height: 150px;
+  width: 75%;
+  overflow: auto;
+  margin-top: 0.7rem;
+}
+.helper_text_cls{
+  margin-top: 0px;
+  margin-bottom: 2px;
+}

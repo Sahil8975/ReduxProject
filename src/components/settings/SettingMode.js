@@ -1,0 +1,79 @@
+import { Icon } from '@iconify/react';
+import moonFill from '@iconify/icons-eva/moon-fill';
+import sunFill from '@iconify/icons-eva/sun-fill';
+// material
+import {
+  Box,
+  Grid,
+  Typography,
+  Radio,
+  Paper,
+  RadioGroup,
+  CardActionArea,
+  FormControlLabel,
+  Tooltip
+} from '@mui/material';
+// hooks
+import useSettings from '../../hooks/useSettings';
+
+// ----------------------------------------------------------------------
+
+export default function SettingMode() {
+  const { themeMode, onChangeMode } = useSettings();
+  return (
+    <>
+      <RadioGroup name="themeMode" value={themeMode} onChange={(e) => onChangeMode(e.target.value)}>
+        <Typography variant="body2">Choose Theme</Typography>
+        <Grid container spacing={1}>
+          {['light', 'dark'].map((mode, index) => (
+            <Tooltip key={index} title={`Click to select ${mode === 'dark' ? 'Dark' : 'Light'} theme`}>
+              <Grid item xs={6} key={mode}>
+                <Paper
+                  sx={{
+                    width: '30%',
+                    zIndex: 0,
+                    overflow: 'hidden',
+                    position: 'relative',
+                    bgcolor: mode === 'dark' ? 'grey.900' : 'common.white',
+                    ...(themeMode === mode && {
+                      boxShadow: (theme) => theme.customShadows.z12
+                    })
+                  }}
+                >
+                  <CardActionArea sx={{ color: 'primary.main' }}>
+                    <Box
+                      sx={{
+                        paddingTop: '4px',
+                        alignItems: 'center',
+                        color: 'text.disabled',
+                        ...(themeMode === mode && {
+                          color: 'primary.main',
+                          border: '1px solid #0188a8'
+                        })
+                      }}
+                    >
+                      <Icon icon={index === 0 ? sunFill : moonFill} width={24} height={24} />
+                    </Box>
+
+                    <FormControlLabel
+                      label=""
+                      value={mode}
+                      control={<Radio sx={{ display: 'none' }} />}
+                      sx={{
+                        top: 0,
+                        margin: 0,
+                        width: '100%',
+                        height: '100%',
+                        position: 'absolute'
+                      }}
+                    />
+                  </CardActionArea>
+                </Paper>
+              </Grid>
+            </Tooltip>
+          ))}
+        </Grid>
+      </RadioGroup>
+    </>
+  );
+}

@@ -1,0 +1,1476 @@
+// .testClass {
+//     background-color: green !important;
+// }
+
+.rel .smallfont {
+  font-size: small;
+}
+
+.datatable-crud-demo .table-header {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.css-1xlrod2-MuiInputBase-root-MuiOutlinedInput-root {
+  height: 1.8rem;
+}
+//textBox height for dev
+.css-yny0uz {
+  height: 1.8rem;
+}
+
+//table grid heading
+.p-datatable .p-sortable-column .p-column-title {
+  font-size: 0.9rem;
+  color: #141e46;
+}
+
+//mutiselect selected fields height
+.css-1czzxhw-MuiButtonBase-root-MuiChip-root {
+  height: 1.8rem;
+}
+
+.css-2u79sh-MuiButtonBase-root-MuiChip-root {
+  height: 1.8rem;
+}
+
+.css-cv83sj {
+  height: 1.8rem;
+}
+
+.p-dropdown-trigger {
+  width: 2rem;
+}
+
+.css-161rjkm-MuiFormLabel-root-MuiInputLabel-root {
+  margin-top: -0.2rem;
+}
+
+.sheet-container {
+  display: block;
+  padding: 5px;
+  -webkit-box-shadow: 0 0 6px #ccc;
+  box-shadow: 0 0 6px #ccc;
+  margin: auto;
+  width: 500px;
+  margin-top: 20px;
+}
+
+table.data-grid {
+  margin: auto;
+  width: 100%;
+}
+
+table.data-grid tr td.cell {
+  overflow: hidden;
+}
+
+.rel {
+  position: relative;
+  margin-top: 100px;
+}
+
+.both-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.datatable-rowexpansion-demo .product-image {
+  width: 50px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.datatable-rowexpansion-demo .orders-subtable {
+  padding: 1rem;
+}
+
+.makeSticky {
+  position: -webkit-sticky; /* Safari & IE */
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1100;
+}
+
+.css-3yhpc8-MuiGrid-root > .MuiGrid-item {
+  padding-top: 8px;
+}
+
+// dataTable styles
+
+.headerFont {
+  font-size: small !important;
+  height: 25px;
+}
+
+.p-datatable-scrollable .p-datatable-thead > tr,
+.p-datatable-scrollable .p-datatable-tbody > tr,
+.p-datatable-scrollable .p-datatable-tfoot > tr,
+.p-datatable-table .p-datatable-thead > tr,
+.p-datatable-table .p-datatable-tbody > tr {
+  font-size: small !important;
+}
+
+.p-column-filter-row .p-column-filter-element {
+  // flex: 1 1 auto;
+  width: 100% !important;
+  padding: 0;
+  margin: 0;
+  /* height: 25
+px
+; */
+}
+
+.p-inputtext {
+  margin: 0 !important;
+  padding: 2px !important;
+}
+/*
+.p-inputtext:focus {
+  outline-color: #00AB55 !important;
+  border-color: #00AB55 !important;
+}
+
+.p-inputtext:active {
+  outline-color: #00AB55 !important;
+  border-color: #00AB55 !important;
+  box-shadow: none !important;
+}
+
+.p-checkbox .p-checkbox-box.p-highlight {
+  border-color: #00AB55;
+  background: #00AB55;
+}
+
+.p-inputtext:hover {
+  outline-color: black !important;
+  border-color: black !important;
+}
+*/
+.p-paginator-page,
+.p-paginator-next,
+.p-paginator-last,
+.p-paginator-first,
+.p-paginator-prev,
+.p-paginator-current {
+  height: 2rem !important;
+  min-width: 2rem !important;
+}
+
+.p-paginator {
+  padding: 0px;
+}
+
+.p-paginator .p-dropdown {
+  margin-left: 0.5rem;
+  height: 2rem !important;
+}
+
+.p-paginator .p-dropdown .p-dropdown-label {
+  padding: 3px 0px 0px 6px !important;
+}
+
+.p-datatable .p-datatable-tbody > tr,
+.p-datatable-table .p-datatable-tbody > tr {
+  height: 1.65rem !important;
+}
+
+.datatable-rowexpansion-demo .p-datatable .p-datatable-tbody > tr :hover {
+  cursor: pointer;
+}
+
+.p-input-icon-left > .p-inputtext {
+  padding-left: 2rem !important;
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+}
+
+.p-datatable.p-datatable-sm .p-datatable-tbody > tr > td {
+  padding: 0.1rem 0.5rem !important;
+}
+
+.p-datatable .p-datatable-tbody > tr.p-highlight {
+  background: #eef2ff00 !important;
+  color: #0188a8 !important;
+}
+/*
+.labelFontSize{
+   font-size: 13px; 
+}
+
+// gradient animation starts
+.test {
+   width: 100%;
+   height: 100%;
+   color: #fff;
+   background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+   background-size: 400% 400%;
+   -webkit-animation: Gradient 15s ease infinite;
+   -moz-animation: Gradient 15s ease infinite;
+   animation: Gradient 15s ease infinite;
+   }
+ 
+ .paused {
+   -webkit-animation-play-state: paused; // Safari 4.0 - 8.0 
+   animation-play-state: paused;
+ }
+ 
+ @-webkit-keyframes Gradient {
+   0% {
+   background-position: 0% 50%
+   }
+ 50% {
+ background-position: 100% 50%
+ }
+ 100% {
+ background-position: 0% 50%
+ }
+ }
+ 
+ @-moz-keyframes Gradient {
+   0% {
+   background-position: 0% 50%
+   }
+ 50% {
+ background-position: 100% 50%
+ }
+ 100% {
+ background-position: 0% 50%
+ }
+ }
+ 
+ @keyframes Gradient {
+   0% {
+   background-position: 0% 50%
+   }
+ 50% {
+ background-position: 100% 50%
+ }
+ 100% {
+ background-position: 0% 50%
+ }
+ }
+ 
+ 
+ */
+
+// gradient animation ends
+.MuiGrid-root > .MuiGrid-item {
+  padding-top: 8px;
+}
+
+// global css for centering header for primeReact dataGrid
+.d-data-cls .p-column-header-content {
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  float: left;
+  font-size: 0.7rem;
+  color: red;
+}
+
+#toast-container > div {
+  opacity: 1;
+}
+
+.p-datatable.p-datatable-sm .p-datatable-thead > tr > th {
+  padding: 0.1rem !important;
+  padding-left: 0.8rem !important;
+}
+
+// .p-column-filter-overlay {
+//   z-index: 1002 !important;
+//   transform-origin: center bottom !important;
+//   top: 107.5156px !important;
+//   left: 500.938px !important;
+// }
+
+// reset filter grid css
+.reset-dataTable-filter-cls {
+  position: relative;
+  top: -2.5rem;
+  left: -1rem;
+  float: right;
+}
+
+// Global css for sort icon for dataTable
+.p-datatable .p-sortable-column .p-sortable-column-icon {
+  color: #343a40;
+  margin-left: -3rem;
+  font-size: 12px;
+}
+
+// Global css for DataTable Filter Button
+.p-column-filter-menu-button {
+  width: 1rem !important;
+  height: 1.2rem !important;
+  color: #6c757d;
+  border: 0 none;
+  background: transparent;
+  border-radius: 50%;
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.css-ja5kgb-MuiButtonBase-root-MuiButton-root {
+  height: 1.8rem;
+}
+
+// Global  css for dataTable Title heading
+.p-column-title {
+  vertical-align: middle;
+  font-size: 16px;
+  margin-right: auto;
+}
+
+// Global Css for DataTable Sort Icon
+.p-datatable .p-sortable-column .p-sortable-column-icon {
+  margin: 9px;
+  color: #343a40;
+}
+
+// Global css for dataTable Funnel Icon
+.p-column-filter-menu {
+  margin: 0px !important;
+}
+
+//label heading for textbox on dev
+.css-k45ufa {
+  margin-top: -0.2rem;
+}
+
+//table padding
+.css-lkiaxd-MuiTableCell-root {
+  padding: 6px 4px;
+}
+
+//table padding for dark mode
+.css-1uzjdja-MuiTableCell-root {
+  padding: 6px 4px;
+}
+
+//table padding on dev
+.css-b9qwcu {
+  padding: 6px 4px;
+}
+
+//table padding on dev for dark mode
+.css-1o85rtk {
+  padding: 6px 4px;
+}
+
+//multislectbox value height on dev
+.css-1e522yf {
+  height: 1.8rem;
+}
+
+// textbox height on dark mode
+.css-3mvh1j-MuiInputBase-root-MuiOutlinedInput-root {
+  height: 1.8rem;
+}
+
+//textbox on dev darkmode
+.css-3lf3bv {
+  height: 1.8rem;
+}
+
+.css-cumm78-MuiFormLabel-root-MuiInputLabel-root {
+  margin-top: -0.2rem;
+}
+//label
+.css-67gdf9 {
+  margin-top: -0.2rem;
+}
+
+//button height on dev
+.css-16ps1kk {
+  height: 1.8rem;
+}
+
+// DataTable column heading for perticular cls
+.servicemanServiceReport-dataTable-cls .p-column-title {
+  font-size: 12px;
+  text-align: center;
+}
+
+// selectbox downArrow click fix
+// Local Light mode
+.css-jfl0wa-MuiSvgIcon-root-MuiSelect-icon {
+  right: 14px;
+}
+// Dark mode
+.css-1jq6yqr-MuiSvgIcon-root-MuiSelect-icon {
+  right: 14px;
+}
+// Dev light mode
+.css-3q5kpr {
+  right: 14px;
+}
+// Dark mode
+.css-1vtb4y9 {
+  right: 14px;
+}
+
+.Resizer {
+  position: relative;
+  background: darkGray;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+}
+
+/*
+.Resizer:hover,
+.Resizer:active {
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}*/
+
+.Resizer.horizontal {
+  height: 11px;
+  margin: -5px 0;
+  border-top: 5px solid rgba(255, 255, 255, 0);
+  border-bottom: 5px solid rgba(255, 255, 255, 0);
+  cursor: row-resize;
+  width: 100%;
+}
+/*
+.Resizer.horizontal:hover,
+.Resizer.Resizer.horizontal:active {
+  border-top: 5px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+}*/
+
+.Resizer.vertical {
+  z-index: 999;
+  width: 10px;
+  margin: 0 -5px;
+  border-left: 5px solid #00aa55;
+  border-right: 5px solid #00aa55;
+  cursor: col-resize;
+}
+
+.Resizer.vertical:hover,
+.Resizer.vertical:active {
+  border-left: 5px solid #007b55;
+  border-right: 5px solid #007b55;
+}
+
+.Resizer.disabled {
+  cursor: not-allowed;
+}
+.Resizer.disabled:hover,
+.Resizer.disabled:active {
+  border-color: transparent;
+}
+
+.Resizer::after,
+.Resizer::before {
+  content: '';
+  border-left: 1px solid #333;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-100%);
+  right: 0;
+  display: inline-block;
+  height: 10px;
+  margin: 0 2px;
+}
+.Resizer::before {
+  left: 0;
+}
+.p-row-odd {
+  background: none repeat scroll 0 0 #f2f2f2 !important;
+}
+
+.p-dropdown-item,
+.p-dropdown-item.p-highlight {
+  padding-bottom: 0 !important;
+  padding-top: 0.2rem !important;
+}
+
+//Dev Menu Bar backgroundcolor lightmode
+.css-5xhlrl-MuiPaper-root-MuiDrawer-paper {
+  background-color: #141e46;
+  width: 20rem;
+}
+//Dev Menu Bar backgroundcolor darkmode
+.css-10datgf-MuiPaper-root-MuiDrawer-paper {
+  width: 20rem;
+}
+
+//Staging Menu Bar backgroundcolor lightmode
+.css-wyycy9 {
+  background-color: #141e46;
+  width: 20rem;
+}
+//Staging Menu Bar backgroundcolor darkmode
+.css-1amzkre {
+  width: 20rem;
+}
+
+//darkmode
+.css-h7y15r-MuiButtonBase-root-MuiListItem-root:hover {
+  background-color: #98cbdb;
+  color: #141e46;
+}
+
+.css-f5lwoj-MuiButtonBase-root-MuiListItem-root:hover {
+  background-color: #98cbdb;
+  color: #141e46;
+}
+
+.css-et7ql2-MuiButtonBase-root-MuiListItem-root {
+  color: #fff;
+}
+
+//Menu Bar menu namecolor
+.css-rnz8y5-MuiButtonBase-root-MuiListItem-root {
+  color: #fff;
+}
+
+//Menu Bar menu namecolor hover
+.css-1xzr8ct-MuiButtonBase-root-MuiListItem-root:hover {
+  background-color: #98cbdb;
+  color: #141e46;
+}
+
+.css-1xzr8ct-MuiButtonBase-root-MuiListItem-root {
+  color: #0188a8;
+}
+
+.css-1rf99hb-MuiButtonBase-root-MuiListItem-root:hover {
+  background-color: #98cbdb;
+  color: #141e46;
+}
+
+//Logout font color
+.css-p9jivy-MuiButtonBase-root-MuiButton-root {
+  color: #98cbdb;
+}
+
+//menu Icon color
+.css-ul6tal-MuiButtonBase-root-MuiIconButton-root {
+  color: #98cbdb;
+}
+
+.css-ntr2ad-MuiButtonBase-root-MuiButton-root:hover {
+  color: #98cbdb;
+  background-color: #141e46;
+  border: 1px solid rgba(20, 30, 70, 1);
+}
+
+.css-138jn41-MuiTypography-root {
+  color: #008cc1;
+}
+
+// // customerView cards
+// .css-tuae8x-MuiButtonBase-root-MuiAccordionSummary-root:hover {
+//   background-color: #98cbdb;
+//   color: #141e46;
+// }
+
+.css-1ild2rc-MuiTypography-root {
+  color: #98cbdb;
+}
+.css-1ujogau-MuiTypography-root {
+  color: #98cbdb;
+}
+
+// .css-17ceore-MuiSvgIcon-root {
+//   color: #fff;
+// }
+
+.css-64w9pg-MuiButtonBase-root-MuiListItem-root {
+  color: #fff;
+}
+
+.css-ryolur {
+  color: #008cc1;
+}
+
+.css-bn0xkm-MuiTypography-root {
+  color: #008cc1;
+}
+
+.css-7hp6a3-MuiButtonBase-root-MuiIconButton-root {
+  color: #98cbdb;
+}
+
+// .css-3bubf1-MuiButtonBase-root-MuiAccordionSummary-root:hover {
+//   background-color: '#98cbdb';
+//   color: '#141e46';
+// }
+
+//Add new user region dropdown checkbox color green
+.css-ncoufy-MuiButtonBase-root-MuiCheckbox-root.Mui-checked {
+  color: #00ab55;
+}
+//Popup like CustomerList from AddNewContract search & AddNewUser in administration dark theme issue
+.css-1wzif0d-MuiPaper-root {
+  background: #161c24 !important;
+}
+
+//sidebar menu in darkmode
+// .css-kgmyx9-MuiListItemIcon-root {
+//   color: #fff;
+// }
+
+// .css-vt7cuc-MuiListItemText-root {
+//   color: #fff;
+// }
+
+// .css-claira {
+//   color: #fff;
+// }
+
+//light mode
+.css-ul100v-MuiInputBase-root-MuiOutlinedInput-root {
+  font-family: 'Montserrat';
+  // font-weight: 500;
+  color: #141e46;
+}
+
+.css-ixccc3-MuiTypography-root {
+  font-family: 'Montserrat';
+  // color: #141e46;
+}
+
+.css-jpnrz7-MuiFormControlLabel-root .MuiFormControlLabel-label {
+  font-family: 'Montserrat';
+  // font-weight: 500;
+  color: #141e46;
+}
+.css-rujgez-MuiTypography-root {
+  font-family: 'Montserrat';
+  // color: #141e46;
+}
+
+.css-5hwo59-MuiInputBase-input-MuiOutlinedInput-input {
+  color: #141e46;
+}
+
+.css-72lzj9-MuiTypography-root {
+  font-family: 'Montserrat';
+  color: #141e46;
+}
+
+.css-1pycnsv-MuiButtonBase-root-MuiButton-root {
+  font-family: 'Montserrat';
+  color: #141e46;
+}
+.css-1yrymlm-MuiTypography-root {
+  font-family: 'Montserrat';
+  // color: #141e46;
+}
+
+.css-rujgez-MuiTypography-root {
+  color: #008cc1;
+}
+
+.css-orgb6f-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+  color: #141e46;
+}
+
+//dashboard heading
+.css-b95cf8-MuiTypography-root {
+  font-family: 'Montserrat';
+  // color: #141e46;
+}
+
+//add contat email addIcon height
+.css-ajpfvg-MuiButtonBase-root-MuiIconButton-root {
+  height: 4rem;
+}
+
+.css-jwy2t1-MuiButtonBase-root-MuiIconButton-root {
+  height: 4rem;
+}
+
+// .css-xfthdg-MuiDialogContent-root {
+//   color: #141e46;
+// }
+
+// .css-14ao5ww-MuiTypography-root-MuiDialogTitle-root {
+//   color: #141e46;
+// }
+
+// darkmode
+.css-uhu55t-MuiFormControlLabel-root .MuiFormControlLabel-label {
+  font-family: 'Montserrat';
+}
+
+element.style {
+  font-family: 'Montserrat';
+}
+.css-1a1o6ph-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-1a1o6ph-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-1a1o6ph-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  font-family: 'Montserrat';
+}
+
+.css-156u1v2-MuiAutocomplete-root .MuiOutlinedInput-root.MuiInputBase-sizeSmall {
+  font-family: 'Montserrat';
+}
+
+.css-14ao5ww-MuiTypography-root-MuiDialogTitle-root {
+  font-family: 'Montserrat';
+}
+
+.css-11ucfbt-MuiTypography-root-MuiDialogTitle-root {
+  font-size: 1rem;
+  font-family: 'Montserrat';
+  margin-bottom: 0.5rem;
+}
+
+.css-twdks7 {
+  font-size: 1rem;
+  font-family: 'Montserrat';
+  margin-bottom: 0.5rem;
+  color: #141e46;
+}
+
+// staging sidebar icons no need dark color
+// .css-10dohqv {
+//   color: #141e46;
+// }
+
+.MuiDialogTitle-root + .css-2wcni9 {
+  color: #141e46;
+}
+
+///staging dark mode
+.css-3fas2t.css-3fas2t.css-3fas2t {
+  font-family: 'Montserrat';
+}
+
+.css-q533ep {
+  font-family: 'Montserrat';
+  color: #141e46;
+}
+
+.css-qkd7x7 .MuiFormControlLabel-label {
+  font-family: 'Montserrat';
+}
+
+.css-b37vt0 {
+  font-family: 'Montserrat';
+  color: #008cc1;
+}
+
+.css-1srxkdo {
+  font-family: 'Montserrat';
+}
+
+.css-53xn5l {
+  font-family: 'Montserrat';
+  color: #141e46;
+}
+
+.css-yemnbq {
+  font-family: 'Montserrat';
+}
+
+//staging light mode
+.css-ujc7v5.css-ujc7v5.css-ujc7v5 {
+  font-family: 'Montserrat';
+  color: #141e46;
+}
+
+.css-15n0jy5 {
+  color: #fff;
+}
+
+// staging chip font change
+.css-14vsv3w {
+  // color: #141e46;
+  font-family: 'Montserrat';
+}
+
+// Accordion expanded height
+.css-mf72qi-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+  min-height: 3rem;
+}
+
+// staging accordion expanded
+.css-doy3x8.Mui-expanded {
+  min-height: 3rem;
+}
+
+// mui textbox labels font changes dev/local
+.css-rg38vy-MuiFormLabel-root-MuiInputLabel-root {
+  font-family: 'Montserrat';
+}
+
+// staging mui textbox label font change
+.css-1t1b5gu {
+  font-family: 'Montserrat';
+}
+
+// mui dropdown lable changes
+.css-1f80v5h-MuiFormLabel-root-MuiInputLabel-root {
+  font-family: 'Montserrat';
+}
+
+// mui dropdown label border font change
+.css-1lrimo8-MuiFormLabel-root-MuiInputLabel-root {
+  font-family: 'Montserrat';
+}
+
+// staging dropdown label font change
+.css-gc1pz1 {
+  font-family: 'Montserrat';
+}
+
+// staging dropdown label border font change
+.css-1f3ewh4 {
+  font-family: 'Montserrat';
+}
+
+.css-ok1e00.Mui-checked {
+  color: #141e46;
+}
+
+.css-g5gk3y .MuiFormControlLabel-label {
+  font-family: 'Montserrat';
+  color: #141e46;
+}
+
+.css-zq1xaf {
+  color: #98cbdb !important;
+}
+
+.css-1670509 {
+  color: #98cbdb !important;
+}
+
+.css-bbgt9x {
+  color: #98cbdb !important;
+}
+
+.css-d79oic {
+  color: #98cbdb !important;
+}
+
+.css-13h34el.Mui-checked {
+  color: #141e46 !important;
+}
+
+.css-1ixj2j6 {
+  color: #141e46 !important;
+}
+
+.css-1nfqmlx {
+  // font-family: 'Montserrat'; // removed for arabic font name on staging
+  color: #141e46 !important;
+}
+
+.css-1wbe7gx:hover {
+  background-color: #141e46 !important;
+  color: #98cbdb !important;
+}
+
+.css-176slt {
+  color: #141e46;
+}
+
+.css-1o38g2n {
+  color: #141e46;
+}
+
+.css-qr6xzc {
+  font-family: 'Montserrat';
+}
+
+.css-1bzhd3o {
+  font-family: 'Montserrat';
+}
+
+.css-1wug9aj {
+  font-family: 'Montserrat';
+}
+
+.css-qbwrp9 {
+  font-family: 'Montserrat';
+}
+.css-8t788c {
+  font-family: 'Montserrat';
+}
+.css-k36ljx {
+  font-family: 'Montserrat';
+}
+
+//staging
+.css-1aiv6yn:hover {
+  background-color: #98cbdb !important;
+  color: #141e46;
+}
+
+.css-4o2zqr:hover {
+  background-color: #98cbdb !important;
+  color: #141e46 !important;
+}
+//local scroll arrow darkmode
+.css-13rp0v-MuiSvgIcon-root {
+  color: #008cc1 !important;
+}
+.css-1o6agms-MuiSvgIcon-root {
+  color: #008cc1 !important;
+}
+//staging scroll arrow darkmode
+.css-18kfonv {
+  color: #008cc1 !important;
+}
+
+.css-1w5r1u3 {
+  color: #008cc1 !important;
+}
+
+//cards heading in centre
+
+.css-duieyw-MuiGrid-root {
+  margin-top: 0px;
+  // color: #fff;
+}
+// .css-17ceore-MuiSvgIcon-root:hover {
+//   color: #141e46;
+// }
+.css-u1ig7c-MuiTypography-root {
+  color: #98cbdb !important;
+}
+
+.css-pcrnhn-MuiTypography-root {
+  color: #98cbdb !important;
+}
+//staging
+.css-1v9oppr {
+  // color: #98cbdb !important;
+  margin-top: 0px;
+}
+
+.css-1vq3ged-MuiInputBase-root-MuiOutlinedInput-root {
+  height: 2.2rem;
+}
+
+//cards when not expanded
+.css-o4b71y-MuiAccordionSummary-content {
+  margin: 5px 0px;
+}
+
+.css-1n8gmte-MuiButtonBase-root-MuiAccordionSummary-root {
+  min-height: 38px;
+}
+
+//staging
+.css-17o5nyn {
+  margin: 5px 0px;
+}
+
+.css-zunms7 {
+  min-height: 38px;
+}
+
+//cards when expanded
+.css-o4b71y-MuiAccordionSummary-content.Mui-expanded {
+  margin: 5px 0px;
+}
+
+.css-1vecokq-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+  min-height: 40px;
+}
+
+//local addcontact loaction name dropdown darkmode
+.css-116q743-MuiButtonBase-root-MuiMenuItem-root {
+  height: 1.5rem;
+}
+
+//staging addcontact loaction name dropdown drkmode
+.css-b03bhs {
+  height: 1.5rem;
+}
+
+//staging addcontact add& remove icon height
+.css-18t8o0u {
+  height: 4rem;
+}
+
+.css-1ixj2j6 {
+  height: 4rem;
+}
+
+//staging
+.css-17o5nyn.Mui-expanded {
+  margin: 5px 0px;
+}
+
+.css-zunms7.Mui-expanded {
+  min-height: 40px;
+}
+
+//dark mode label
+.css-z5q5zy-MuiFormLabel-root-MuiInputLabel-root {
+  color: #fff;
+}
+
+// On Devlink Contract creation > customer list background color change
+// Dark Mode
+.css-a52s5f {
+  background-color: #161c24 !important;
+}
+
+// Dark mode grid color changes implemented in simpleTable.js DataTable
+.dark-mode {
+  .p-datatable-thead > tr > th {
+    background: #323232 !important;
+    border-color: #3e464f !important;
+    color: #fff !important;
+  }
+  .p-datatable-tbody > tr > td {
+    background: rgb(22, 28, 36) !important;
+    border-color: #3e464f !important;
+    color: #fff !important;
+  }
+  .p-datatable-tbody > tr.p-row-odd > td {
+    background: none repeat scroll 0 0 #323232 !important;
+  }
+  .p-paginator {
+    background: #161c24 !important;
+    border-color: #3e464f !important;
+  }
+  .p-dropdown {
+    background: #161c24 !important;
+    border-color: #3e464f !important;
+  }
+  .p-sortable-column.p-highlight {
+    background: #afcfb5 !important;
+    color: #0188a8 !important;
+  }
+  .p-sortable-column.p-highlight .p-sortable-column-icon {
+    color: #0188a8 !important;
+  }
+  .p-column-filter-menu-button-active {
+    color: #0188a8 !important;
+  }
+}
+
+//Customer View
+
+//scrollbar for Customer View
+.MuiGrid-root > .MuiGrid-item::-webkit-scrollbar {
+  width: 10px;
+  // background-color: grey;
+}
+
+.MuiGrid-root > .MuiGrid-item::-webkit-scrollbar-track {
+  background-color: black;
+}
+.MuiGrid-root > .MuiGrid-item::-webkit-scrollbar-thumb {
+  border-radius: 1px;
+  background-color: #98cbdb !important;
+}
+
+.schedule-viewer .react-trello-lane > div::-webkit-scrollbar {
+  width: 10px;
+  background-color: #141e46;
+}
+
+.schedule-viewer .react-trello-lane > div::-webkit-scrollbar-track {
+  background-color: #141e46;
+}
+
+.schedule-viewer .react-trello-lane > div::-webkit-scrollbar-thumb {
+  border-radius: 1px;
+  background-color: #98cbdb !important;
+}
+
+.css-w78wm0 {
+  color: #98cbdb !important;
+}
+
+.css-am5j3i {
+  color: #141e46;
+}
+
+.css-10kmdj4:hover {
+  background-color: #98cbdb !important;
+  color: #141e46 !important;
+}
+
+.css-1e4btkb:hover {
+  background-color: #98cbdb !important;
+  color: #141e46 !important;
+}
+
+//Arrow sign for cards in dark mode
+.css-1mop7n7-MuiAccordionSummary-expandIconWrapper.Mui-expanded {
+  transform: none;
+}
+
+.css-awtdfi.Mui-expanded {
+  transform: none;
+}
+
+.css-5xtb23.Mui-expanded {
+  transform: none;
+}
+
+.dark-mode-accordion {
+  background-color: rgba(33, 44, 54, 1);
+  color: #98cbdb !important;
+}
+
+// cards between border
+.css-bz4dnt-MuiCollapse-root {
+  height: 0.1px;
+}
+
+.css-a0y2e3 {
+  height: 0.1px;
+}
+
+//muliselect label height
+.css-14tmtjn-MuiButtonBase-root-MuiChip-root {
+  height: 1.6rem;
+}
+.css-1pv1v45-MuiButtonBase-root-MuiChip-root {
+  height: 1.6rem;
+}
+
+//staging muliselect label height
+
+.css-la7u4t {
+  height: 1.6rem;
+}
+
+.css-lu73uj {
+  height: 1.6rem;
+}
+
+// Setting Dark theme border
+.css-18t7k4o {
+  border: 1px solid #0188a8;
+}
+
+// Setting Save button hover
+.css-16ow2ua-MuiButtonBase-root-MuiButton-root:hover {
+  background-color: #046880;
+}
+
+.css-wu7op7 {
+  padding-top: 80px;
+  padding-bottom: 0px;
+}
+
+//timebaed grid padding local lightmode
+.css-1gxkjfk-MuiTableCell-root {
+  padding: 3px;
+}
+
+//timebaed grid padding local darkmode
+.css-1nc6ltz-MuiTableCell-root {
+  padding: 3px;
+}
+
+//timebaed grid padding staging lightmode
+.css-zy3sbh {
+  padding: 3px;
+}
+
+//timebaed grid padding staging darkmode
+.css-1iibwg6 {
+  padding: 3px;
+}
+
+//timebaed grid  local lightmode
+.css-oa1hrg-MuiTableCell-root:first-of-type {
+  box-shadow: none;
+}
+
+.css-oa1hrg-MuiTableCell-root:last-of-type {
+  box-shadow: none;
+}
+
+//timebaed grid  local darkmode
+.css-1g0v7sr-MuiTableCell-root:first-of-type {
+  box-shadow: none;
+}
+.css-1g0v7sr-MuiTableCell-root:last-of-type {
+  box-shadow: none;
+}
+
+//timebaed grid  staging lightmode
+.css-bh1m6c:first-of-type {
+  box-shadow: none;
+}
+.css-bh1m6c:last-of-type {
+  box-shadow: none;
+}
+
+//timebaed grid  staging darkmode
+.css-1ptvlw5:first-of-type {
+  box-shadow: none;
+}
+.css-1ptvlw5:last-of-type {
+  box-shadow: none;
+}
+
+// multiselect was able to click outside box
+.css-13hp059-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 5px 14px;
+}
+.css-wvlenc-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 5px 14px;
+}
+
+// chip label font change
+.css-1dybbl5-MuiChip-label {
+  font-family: 'Montserrat';
+}
+
+// dropdown list font dev
+.css-1ejfeto-MuiButtonBase-root-MuiMenuItem-root {
+  font-family: 'Montserrat';
+  height: 1.5rem;
+}
+// dropdown list font staging
+.css-1jy77x0 {
+  font-family: 'Montserrat';
+  height: 1.5rem;
+}
+
+.css-1ejfeto-MuiButtonBase-root-MuiMenuItem-root.Mui-selected {
+  height: 1.5rem;
+}
+
+//staging multiselect was able to click outside box
+.css-qhidb1 {
+  padding: 3px 14px;
+}
+
+.css-3797se {
+  padding: 3px 14px;
+}
+
+// DATEPICKER CSS
+.css-1lxwves {
+  display: flex !important;
+  flex-direction: row-reverse !important;
+  align-items: baseline !important;
+}
+// year button removed
+.css-ijalvh {
+  color: #000 !important;
+}
+.css-joka4c-MuiTypography-root {
+  color: #000 !important;
+}
+//Font size of dd-mm-yyyy
+//Dev
+.css-1b3vfwy-MuiTypography-root {
+  font-size: 1rem !important;
+}
+.css-rcse9q {
+  font-size: 1rem !important;
+}
+//Dark Mode
+.css-heeu8x {
+  font-size: 1rem !important;
+}
+.css-mc69mq {
+  color: #fff; //Year span color change
+}
+//Dark Mode
+.css-2zqius-MuiTypography-root {
+  font-size: 1rem !important;
+}
+.css-c0m67g-MuiTypography-root {
+  color: #fff; //Year span color change
+}
+//For removing white spaces of Month year selector div
+.css-1dozdou {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+//For padding of year monthDate buttons
+.css-yquuwn {
+  padding-bottom: 0px !important;
+}
+//For Date boxes scrollbar div
+.css-dhopo2 {
+  min-height: 230px !important;
+}
+// for lower button's div
+.css-qx29vh-MuiPaper-root-MuiDialog-paper.MuiDialog-paper .MuiDialogActions-root {
+  padding-top: 0px !important;
+}
+.css-1sjdat2.MuiDialog-paper .MuiDialogActions-root {
+  padding: 0px 24px 24px 24px !important;
+}
+.css-177gmbo {
+  padding: 0px 24px 24px 24px !important;
+}
+
+// for column header highlight color
+.p-datatable .p-sortable-column.p-highlight:not(.p-sortable-disabled):hover {
+  color: #0188a8 !important;
+}
+.p-datatable .p-sortable-column.p-highlight {
+  color: #0188a8 !important;
+  border-color: #0188a8 !important;
+}
+.p-datatable .p-sortable-column .p-sortable-column-icon:hover {
+  color: #0188a8 !important;
+}
+.p-datatable .p-sortable-column.p-highlight:not(.p-sortable-disabled):hover .p-sortable-column-icon {
+  color: #0188a8 !important;
+}
+.p-datatable .p-sortable-column.p-highlight .p-sortable-column-icon {
+  color: #0188a8 !important;
+}
+.p-column-filter-menu-button.p-column-filter-menu-button-active {
+  color: #0188a8 !important;
+}
+.p-column-filter-menu-button:hover {
+  color: #0188a8 !important;
+}
+
+// funnelFilter icon click popup
+.p-button.p-button-sm .p-button-icon {
+  color: #fff !important;
+  background-color: #0188a8 !important;
+}
+.p-column-filter-add-button .p-button-label {
+  color: #fff !important;
+  background-color: #0188a8 !important;
+}
+.p-button.p-button-outlined {
+  color: #fff !important;
+  background-color: #0188a8 !important;
+}
+.p-button.p-button-sm {
+  color: #fff !important;
+  background-color: #0188a8 !important;
+  border-color: #0188a8 !important;
+}
+.p-inputtext:enabled {
+  border-color: #0188a8 !important;
+}
+.p-inputtext.p-highlight:hover {
+  border-color: #0188a8 !important;
+}
+.p-column-filter-overlay-menu .p-column-filter-operator .p-column-filter-operator-dropdown {
+  border-color: #0188a8 !important;
+}
+.p-column-filter-overlay-menu .p-column-filter-constraint .p-column-filter-matchmode-dropdown {
+  border-color: #0188a8 !important;
+}
+.p-dropdown:hover {
+  border-color: #0188a8 !important;
+}
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
+  color: #0188a8 !important;
+}
+
+.p-datatable.p-datatable-selectable .p-datatable-tbody > tr.p-selectable-row:focus {
+  outline: 0.15rem solid #0188a8 !important;
+  outline-offset: -0.15rem !important;
+}
+
+.p-datatable .p-sortable-column:focus {
+  box-shadow: inset 0 0 0 0.15rem #0188a8 !important;
+  outline: 0 none !important;
+}
+
+// SelectBox css Local
+// Light mode
+.css-ozuh2g-MuiButtonBase-root-MuiMenuItem-root {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 19.2014px;
+}
+// Dark mode
+.css-thfzt6-MuiButtonBase-root-MuiMenuItem-root {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 19.2014px;
+}
+
+// SelectBox css for Dev
+// Light mode
+.css-1e98n2x {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 19.2014px;
+}
+
+// Dark Mode
+.css-vyg8zi {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 19.2014px;
+}
+
+// Disabled TextFields Font size
+.css-1lmsgsl-MuiInputBase-input-MuiInput-input.Mui-disabled {
+  font-size: 0.7rem;
+}
+//local dark mode
+// .css-1p70qpp-MuiInputBase-input-MuiInput-input.Mui-disabled {
+//   font-size: 0.7rem;
+// }
+// Dev textField font Size
+.css-ruw8z.Mui-disabled {
+  font-size: 0.7rem;
+}
+// dev dark mode
+.css-k9dwal.Mui-disabled {
+  font-size: 0.7rem;
+}
+
+// for selectBox inner text padding
+.css-yoqnhx-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-yoqnhx-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-yoqnhx-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding-right: 10px;
+}
+// local dark mode
+.css-1a1o6ph-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-1a1o6ph-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-1a1o6ph-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding-right: 10px;
+  // padding-left: 7px;
+}
+// dev
+.css-ujc7v5.css-ujc7v5.css-ujc7v5 {
+  padding-right: 10px;
+}
+// dev dark mode
+.css-3fas2t.css-3fas2t.css-3fas2t {
+  padding-right: 10px;
+  // padding-left: 7px;
+}
+
+// staging checkbox disabled color change
+// .css-13h34el.Mui-checked.Mui-disabled, .css-13h34el.Mui-disabled {
+.css-13h34el.Mui-checked.Mui-disabled {
+  color: #919eabcc !important;
+}
+
+// for textField inner text padding
+// .css-5hwo59-MuiInputBase-input-MuiOutlinedInput-input {
+//   padding-left: 7px;
+// }
+//local dark mode
+// .css-1mlmvr1-MuiInputBase-input-MuiOutlinedInput-input {
+//   padding-left: 7px;
+// }
+// dev
+// .css-1nfqmlx {
+//   padding-left: 7px;
+// }
+// dev dark mode
+// .css-1srxkdo {
+//   padding-left: 7px;
+// }

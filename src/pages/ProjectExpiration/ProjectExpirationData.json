@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1001,
+    "projectNo": "HSDPJD_0122_003_003",
+    "customer": "Food Manufacturing Group Co",
+    "location": "Industrial city jeddah FMG,industrial city 1274 jeddah 21431 KSA SAU",
+    "expiry": "06-12-2021",
+    "status": "Active"
+  },
+  {
+    "id": 1002,
+    "projectNo": "HSDPJD_0134_001_003",
+    "customer": "The French School",
+    "location": "Heraa street jeddah Heraa street jeddah SAU",
+    "expiry": "05-12-2021",
+    "status": "Active"
+  },
+  {
+    "id": 1003,
+    "projectNo": "HSDPJD_0022_007_003",
+    "customer": "Premium Food Company Ltd",
+    "location": "Mandarin mall Heraa st Mandrin Mall Herra street Jeddah,Saudi Arebia, SAU",
+    "expiry": "03-12-2021",
+    "status": "Hold- Credit Hold"
+  },
+  {
+    "id": 1004,
+    "projectNo": "HSDPJD_0017_005_002",
+    "customer": "Anjuman Hotel - Makkah",
+    "location": "opp masjid at haram Makkah Saudi Arebia, SAU",
+    "expiry": "04-12-2021",
+    "status": "Hold- Credit Hold"
+  },
+  {
+    "id": 1005,
+    "projectNo": "HSDPJD_0341_082_002",
+    "customer": "Reza Food Service Co Ltd",
+    "location": "Herra East Herra East Jeddah RES0119, SAU",
+    "expiry": "03-12-2021",
+    "status": "Hold- Credit Hold"
+  }
+]

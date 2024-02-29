@@ -1,0 +1,72 @@
+.service-order-icons {
+  float: right;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.service-order-list-cls {
+  padding: 30px 20px;
+  width: '100%';
+  margin: -35px auto;
+}
+.circle {
+  border-radius: 50%;
+  width: 19px;
+  height: 19px;
+  padding: 0px;
+  border: 2px solid #000;
+  text-align: center;
+  font-size: 11px;
+}
+#scrollable-auto-tabpanel-0 > div {
+  padding-right: 0px;
+}
+.ft-wt-400 {
+  font-weight: 400;
+}
+.service-subject {
+  margin-top: -5px;
+}
+.schedule-order-tab-panel {
+  padding: 0px !important;
+  margin: 6px 5px 0px 22px !important;
+  background-color: #f9fafb;
+  .Mui-selected {
+    color: #fff;
+    background-color: #0188a8;
+    border-radius: 0px;
+    padding: 1rem !important;
+  }
+  .Mui-selected:hover {
+    background-color: #046880;
+  }
+}
+
+.back-to-view-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.service-arr-icn {
+  color: #0188a8;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 6px;
+  margin: 1px;
+  cursor: pointer;
+}
+
+.service-arr-icn:hover {
+  color: #046880;
+  cursor: pointer;
+}
+.schedule-date {
+  display: inline-block;
+  margin-left: 1px;
+}
+.next-by-day {
+  left: 5px;
+}
+.pd-t-0 {
+  padding-top: 0px !important;
+}

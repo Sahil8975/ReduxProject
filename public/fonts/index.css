@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'CircularStd';
+  font-weight: 400;
+  font-style: normal;
+  src: local('CircularStd'), url('CircularStd-Book.otf') format('opentype');
+}
+@font-face {
+  font-family: 'CircularStd';
+  font-weight: 500;
+  font-style: normal;
+  src: local('CircularStd'), url('CircularStd-Medium.otf') format('opentype');
+}
+@font-face {
+  font-family: 'CircularStd';
+  font-weight: 700;
+  font-style: normal;
+  src: local('CircularStd'), url('CircularStd-Bold.otf') format('opentype');
+}
+.d-flex{
+  display: flex;
+}
+.justify-content-space-between{
+  justify-content: space-between;
+}
+.p-r-100{
+  padding-right: 100px;
+}
+.close{
+  color: white;
+  background-color: #839192;
+}
+.close:hover{
+  background-color: #839192;
+}
+.model-bg {
+  background-color: #eeeeeea6;
+}
+.p-model{
+  padding: 15px 24px !important;
+}
+.border-model{
+  border-top: 1px solid #c3c3c373;
+}
+.head-pd{
+  padding-top: 3px;
+}
+
+   
